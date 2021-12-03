@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: dodgerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  color: #fff;
+  font-family: sans-serif;
+  margin-top: 40vh;
+}
+#heading span {
+  transition: all 0.1s ease-out;
+  display: inline-block;
+  cursor: pointer;
+}
+#heading span:hover {
+  color: fuchsia;
+  transform: translateY(-30px) rotate(7deg) scale(1.5);
+  text-shadow: 0 0 3px white;
+}
